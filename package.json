@@ -1,0 +1,15 @@
+{
+  "name": "integration-example-northflank-nodejs",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+   "node": "16.x"
+ },
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv-vault-core": "^0.3.0"
+  }
+}
